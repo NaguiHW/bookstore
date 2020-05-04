@@ -86,4 +86,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .row {
+    width: 400px;
+
+    .right-column {
+      button {
+        width: 75px;
+        margin: 0 5px;
+      }
+    }
+  }
 }
