@@ -58,3 +58,42 @@
     }
   }
 }
+
+@media only screen and (min-width: 1080px) and (max-width: 1439px){
+  .row {
+    width: 800px;
+
+    .right-column {
+      button {
+        margin: 0 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1079px){
+  .row {
+    width: 480px;
+
+    .right-column {
+      button {
+        width: 115px;
+        margin: 0 15px;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    width: 400px;
+
+    .right-column {
+      button {
+        width: 75px;
+        margin: 0 5px;
+      }
+    }
+  }
+}

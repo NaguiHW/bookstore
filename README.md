@@ -6,12 +6,9 @@
 
 **[Kalib Hackin](https://github.com/NaguiHW)** - naguihw@gmail.com
 
-## Milestone 5
+## Live Demo
 
-
-* Added Styling.
-
-* Pushed to heroku: https://young-badlands-40149.herokuapp.com/
+https://young-badlands-40149.herokuapp.com/
 
 ## Screenshot
 

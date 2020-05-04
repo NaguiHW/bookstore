@@ -1,8 +1,7 @@
 .form-area {
-  width: 1200px;
-  margin: 25px auto;
   border-top: solid 1px #e8e8e8;
-  padding-bottom: 25px;
+  width: 1200px;
+  margin: 25px auto 45px;
 
   .title-form {
     margin: 25px 0;
@@ -19,8 +18,9 @@
 
   .books-form {
     display: flex;
+
     input {
-      width: 664px;
+      width: 60%;
       height: 45px;
       border-radius: 4px;
       border: solid 1px #e8e8e8;
@@ -32,7 +32,7 @@
 }
 
 button {
-  width: 184px;
+  width: 20%;
   height: 45px;
   border-radius: 3px;
   background-color: #0290ff;
@@ -47,7 +47,7 @@ button {
 }
 
 .styled-select {
-  width: 285px;
+  width: 20%;
   height: 45px;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
@@ -58,8 +58,8 @@ button {
   background-color: white;
   
   select {
+    width: 100%;
     background: transparent;
-    width: 268px;
     padding-left: 5px;
     padding-top: 12px;
     font-size: 16px;
@@ -71,5 +71,61 @@ button {
     -webkit-appearance: none;
     letter-spacing: -0.15px;
     color: #c4c4c4;
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1439px){
+  .form-area {
+    width: 800px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1079px){
+  .form-area {
+    width: 480px;
+    .books-form {
+      input {
+        width: 40%;
+      }
+    }
+  }
+
+  button {
+    width: 30%;
+  }
+
+  .styled-select {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form-area {
+    width: 400px;
+
+    .books-form {
+      flex-direction: column;
+      align-items: center;
+  
+      input {
+        width: 100%;
+        margin: 5px 15px;
+      }
+    }
+  }
+
+
+  .styled-select {
+    width: 100%;
+    margin: 5px 15px;
+
+    select {
+      width: 100%;
+    }
+  }
+
+  button {
+    width: 100%;
+    margin: 5px 15px;
   }
 }
