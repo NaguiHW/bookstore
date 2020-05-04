@@ -1,8 +1,7 @@
 .form-area {
+  border-top: solid 1px #e8e8e8;
   width: 1200px;
   margin: 25px auto;
-  border-top: solid 1px #e8e8e8;
-  padding-bottom: 25px;
 
   .title-form {
     margin: 25px 0;
@@ -19,8 +18,9 @@
 
   .books-form {
     display: flex;
+
     input {
-      width: 664px;
+      width: 60%;
       height: 45px;
       border-radius: 4px;
       border: solid 1px #e8e8e8;
@@ -32,7 +32,7 @@
 }
 
 button {
-  width: 184px;
+  width: 20%;
   height: 45px;
   border-radius: 3px;
   background-color: #0290ff;
@@ -47,7 +47,7 @@ button {
 }
 
 .styled-select {
-  width: 285px;
+  width: 20%;
   height: 45px;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
@@ -71,5 +71,11 @@ button {
     -webkit-appearance: none;
     letter-spacing: -0.15px;
     color: #c4c4c4;
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1439px){
+  .form-area {
+    width: 800px;
   }
 }
