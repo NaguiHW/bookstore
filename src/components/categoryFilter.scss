@@ -1,0 +1,125 @@
+.navbar {
+  list-style-type: none;
+  height: 95px;
+  width: 1200px;
+  margin: 25px auto;
+  border-bottom: solid 1px #e8e8e8;
+
+  li {
+    float: left;
+  }
+
+  .icon {
+    margin-top: 23px;
+    float: right;
+    color: #0290ff;
+    cursor: pointer;
+    i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 45px;
+      height: 45px;
+      border: solid 1px #e8e8e8;
+      border-radius: 100%;
+      font-size: 18px;
+    }
+  }
+
+  .title {
+    margin-top: 29px;
+    width: 240px;
+    height: 37px;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0290ff;
+  }
+
+  .book-category {
+    margin-top: 41px;
+    width: auto;
+    height: 16px;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.9px;
+    color: #121212;
+  }
+
+  select {
+    margin-top: 41px;
+    border: 0;
+    margin-left: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #121212;
+    transition: all .4s ease-in-out;
+    letter-spacing: 1.9px;
+    font-size: 13px;
+    width: 90px;
+    height: 16px;
+    opacity: 0.5;
+    
+    &:hover {
+      cursor: pointer;
+    }
+    
+    option {
+      border: 0;
+      padding: 10px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1439px){
+  .navbar {
+    width: 800px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1079px){
+  .navbar {
+    padding: 0;
+    width: 480px;
+
+    .icon {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding-left: 25px;
+    display: flex;
+    width: 380px;
+    flex-direction: column;
+    height: 130px;
+
+    li {
+      .title {
+        margin: 10px 0;
+      }
+
+      select {
+        margin-top: 10px;
+      }
+    }
+
+    .book-category {
+      margin-top: 10px;
+    }
+
+    .icon {
+      display: none;
+    }
+  }
+}
