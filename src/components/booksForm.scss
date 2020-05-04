@@ -59,7 +59,6 @@ button {
   
   select {
     background: transparent;
-    width: 268px;
     padding-left: 5px;
     padding-top: 12px;
     font-size: 16px;
@@ -77,5 +76,24 @@ button {
 @media only screen and (min-width: 1080px) and (max-width: 1439px){
   .form-area {
     width: 800px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1079px){
+  .form-area {
+    width: 480px;
+    .books-form {
+      input {
+        width: 40%;
+      }
+    }
+  }
+
+  button {
+    width: 30%;
+  }
+
+  .styled-select {
+    width: 30%;
   }
 }
