@@ -1,9 +1,7 @@
-import uniqid from 'uniqid';
-
 const actionsMock = {
-  id: uniqid(),
+  id: 1,
   book: {
-    id: uniqid(),
+    id: 1,
     title: 'Steve Jobs',
     category: 'Biography',
     handleRemoveBook: jest.fn(),
