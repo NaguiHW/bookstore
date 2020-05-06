@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-https://young-badlands-40149.herokuapp.com/
+https://bookstore-467b1.web.app/
 
 ## Screenshot
 
