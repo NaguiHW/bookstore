@@ -1,5 +1,7 @@
 # Bookstore
 
+Bookstore is an app where you can add your books, update the state of the reading, filter them by category and delete them.
+
 ## Contributors
 
 **[Bernardo Garza Landa](https://github.com/bernardogarza)** - bernardo.g.landa@gmail.com
