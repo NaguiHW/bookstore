@@ -1,6 +1,6 @@
 # Bookstore
 
-Bookstore is an app where you can add your books, update the state of the reading, filter them by category and delete them.
+Bookstore is an app where you can add your books, update the state of the reading, filter them by category, and delete them.
 
 ## Contributors
 
@@ -21,7 +21,7 @@ You can clone the project using the following command in your terminal:
 ```
 git clone git@github.com:NaguiHW/bookstore.git
 ```
-Now, `cd try-lexus/` and before to start install the depencies:
+Now, `cd bookstore/` and before to start install the depencies:
 ```
 npm install
 ```
@@ -55,8 +55,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Future Features
 - Create the backend to save the changes
 - Add authentication
-- Add progress of the readings, like how many pages you read per day.
+- Add the progress of the readings, like how many pages you read per day.
 
 ## Built with
+- Javascript
 - React
 - Bootstrap
