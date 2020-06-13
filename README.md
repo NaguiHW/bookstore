@@ -58,6 +58,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - Add the progress of the readings, like how many pages you read per day.
 
 ## Built with
-- Javascript
+- JavaScript
 - React
 - Bootstrap
