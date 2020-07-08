@@ -55,7 +55,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Future Features
 - Create the backend to save the changes
 - Add authentication
-- Add the progress of the readings, like how many pages you read per day.
+- Add the progress of the readings, like how many pages you read per day
 
 ## Built with
 - JavaScript
